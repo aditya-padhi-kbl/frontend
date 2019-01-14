@@ -1,0 +1,28 @@
+
+{
+    "compilerOptions": {
+        "types": ["node"],
+        "outDir": "./dist/",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "noEmitOnError": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "esnext",
+        "suppressImplicitAnyIndexErrors": true,
+        "target": "es5",
+        "removeComments": true,
+        "jsx": "react",
+        "lib": [
+            "es2015", "dom"
+        ]
+    },
+    "include": [
+        "./src/**/*",
+        "./externals.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

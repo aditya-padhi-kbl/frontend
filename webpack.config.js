@@ -27,13 +27,19 @@ const devConfig = {
                 use: [{loader: 'babel-loader'}, {loader: 'ts-loader'}]
             },
             {
-                test: /\.(css|less)$/,
-                use: [ 
-                    {"loader": 'style-loader'}, 
-                    // {"loader": 'css-loader'},
-                    {"loader": 'css-loader?modules'}, 
-                    {"loader": 'less-loader'} 
-                ],
+                test: /\.less$/,
+                use: [
+                    { "loader": "css-loader"},
+                    { "loader": "less-loader"}
+                ]
+            },
+
+            {
+                test: /\.css$/,
+                use: [
+                    {"loader": "style-loader"},
+                    {"loader": "css-loader"}
+                ]
             },
             
             {

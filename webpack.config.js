@@ -26,13 +26,13 @@ const devConfig = {
                 include: path.join(__dirname, "src"),
                 use: [{loader: 'babel-loader'}, {loader: 'ts-loader'}]
             },
-            {
-                test: /\.less$/,
-                use: [
-                    { "loader": "css-loader"},
-                    { "loader": "less-loader"}
-                ]
-            },
+            // {
+            //     test: /\.less$/,
+            //     use: [
+            //         { "loader": "css-loader"},
+            //         { "loader": "less-loader"}
+            //     ]
+            // },
 
             {
                 test: /\.css$/,

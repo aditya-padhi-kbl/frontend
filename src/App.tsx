@@ -5,7 +5,7 @@ const bla = require('./file.css');
 const SAMPLEBUTTON: React.StatelessComponent = () => {
     return (
       <React.Fragment>
-        <Button type="primary">Primary</Button>
+        <Button type="primary">Antd Primary!!!!</Button>
         <button onClick={ () => {alert("Hello World")}} className={bla.bck}>Hello</button>
       </React.Fragment>
     )

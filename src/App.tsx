@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'antd';
-const bla = require('./file.css');
+const bla = require('./file.less');
 
 const SAMPLEBUTTON: React.StatelessComponent = () => {
     return (
